@@ -708,8 +708,8 @@ static naginata_kanamap ngdickana[] = {
      .douji = B_Q,
      .kana = {NONE, NONE, NONE, NONE, NONE, NONE},
      .func = ngh_JKQ}, // ^{End}
-    // {.shift = B_J | B_K, .douji = B_W, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =
-    // ngh_JKW}, // 『』{改行}{↑}
+    {.shift = B_J | B_K, .douji = B_W, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =   //消されてたやつ
+    ngh_JKW}, // 『』{改行}{↑}
     {.shift = B_J | B_K,
      .douji = B_E,
      .kana = {NONE, NONE, NONE, NONE, NONE, NONE},
@@ -718,24 +718,24 @@ static naginata_kanamap ngdickana[] = {
      .douji = B_R,
      .kana = {NONE, NONE, NONE, NONE, NONE, NONE},
      .func = ngh_JKR}, // ^s
-    // {.shift = B_J | B_K, .douji = B_T, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =
-    // ngh_JKT}, // ・
-    // {.shift = B_J | B_K, .douji = B_A, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =
-    // ngh_JKA}, // ……{改行}
-    // {.shift = B_J | B_K, .douji = B_S, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =
-    // ngh_JKS}, // (){改行}{↑}
+    {.shift = B_J | B_K, .douji = B_T, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =   //消されてたやつ
+    ngh_JKT}, // ・
+    {.shift = B_J | B_K, .douji = B_A, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =   //消されてたやつ
+    ngh_JKA}, // ……{改行}
+    {.shift = B_J | B_K, .douji = B_S, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =   //消されてたやつ
+    ngh_JKS}, // (){改行}{↑}
     {.shift = B_J | B_K,
      .douji = B_D,
      .kana = {NONE, NONE, NONE, NONE, NONE, NONE},
      .func = ngh_JKD}, // ？{改行}
-    // {.shift = B_J | B_K, .douji = B_F, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =
-    // ngh_JKF}, // 「」{改行}{↑}
-    // {.shift = B_J | B_K, .douji = B_G, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =
-    // ngh_JKG}, // 《》{改行}{↑}
-    // {.shift = B_J | B_K, .douji = B_Z, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =
-    // ngh_JKZ}, // ――{改行}
-    // {.shift = B_J | B_K, .douji = B_X, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =
-    // ngh_JKX}, // 【】{改行}{↑}
+    {.shift = B_J | B_K, .douji = B_F, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =   //消されてたやつ
+    ngh_JKF}, // 「」{改行}{↑}
+    {.shift = B_J | B_K, .douji = B_G, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =   //消されてたやつ
+    ngh_JKG}, // 《》{改行}{↑}
+    {.shift = B_J | B_K, .douji = B_Z, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =   //消されてたやつ
+    ngh_JKZ}, // ――{改行}
+    {.shift = B_J | B_K, .douji = B_X, .kana = {NONE, NONE, NONE, NONE, NONE, NONE}, .func =   //消されてたやつ
+    ngh_JKX}, // 【】{改行}{↑}
     {.shift = B_J | B_K,
      .douji = B_C,
      .kana = {NONE, NONE, NONE, NONE, NONE, NONE},
