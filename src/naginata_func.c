@@ -62,10 +62,10 @@ void ngh_JKQ() { // ^{End}
     ng_eof();
 }
 
-// void ngh_JKW() { // 『』{改行}{↑}
-//     ng_send_unicode_string_P(PSTR("『』"));
-//     ng_up(1);
-// }
+void ngh_JKW() { // 『』{改行}{↑}   //消されてたやつ
+    ng_send_unicode_string_P(PSTR("『』"));
+    ng_up(1);
+}
 
 void ngh_JKE() { // ディ
     raise_zmk_keycode_state_changed_from_encoded(D, true, timestamp);
@@ -80,18 +80,18 @@ void ngh_JKR() { // ^s
     ng_save();
 }
 
-// void ngh_JKT() { // ・
-//     ng_send_unicode_string_P(PSTR("・"));
-// }
+void ngh_JKT() { // ・   //消されてたやつ
+    ng_send_unicode_string_P(PSTR("・"));
+}
 
-// void ngh_JKA() { // ……{改行}
-//     ng_send_unicode_string_P(PSTR("……"));
-// }
+void ngh_JKA() { // ……{改行}   //消されてたやつ
+    ng_send_unicode_string_P(PSTR("……"));
+}
 
-// void ngh_JKS() { // (){改行}{↑}
-//     ng_send_unicode_string_P(PSTR("()"));
-//     ng_up(1);
-// }
+void ngh_JKS() { // (){改行}{↑}   //消されてたやつ
+    ng_send_unicode_string_P(PSTR("()"));
+    ng_up(1);
+}
 
 void ngh_JKD() { // ？{改行}
     raise_zmk_keycode_state_changed_from_encoded(LS(SLASH), true, timestamp);
@@ -100,24 +100,24 @@ void ngh_JKD() { // ？{改行}
     raise_zmk_keycode_state_changed_from_encoded(ENTER, false, timestamp);
 }
 
-// void ngh_JKF() { // 「」{改行}{↑}
-//     ng_send_unicode_string_P(PSTR("「」"));
-//     ng_up(1);
-// }
+void ngh_JKF() { // 「」{改行}{↑}   //消されてたやつ
+    ng_send_unicode_string_P(PSTR("「」"));
+    ng_up(1);
+}
 
-// void ngh_JKG() { // 《》{改行}{↑}
-//     ng_send_unicode_string_P(PSTR("《》"));
-//     ng_up(1);
-// }
+void ngh_JKG() { // 《》{改行}{↑}   //消されてたやつ
+    ng_send_unicode_string_P(PSTR("《》"));
+    ng_up(1);
+}
 
-// void ngh_JKZ() { // ――{改行}
-//     ng_send_unicode_string_P(PSTR("――"));
-// }
+void ngh_JKZ() { // ――{改行}   //消されてたやつ
+    ng_send_unicode_string_P(PSTR("――"));
+}
 
-// void ngh_JKX() { // 【】{改行}{↑}
-//     ng_send_unicode_string_P(PSTR("【】"));
-//     ng_up(1);
-// }
+void ngh_JKX() { // 【】{改行}{↑}   //消されてたやつ
+    ng_send_unicode_string_P(PSTR("【】"));
+    ng_up(1);
+}
 
 void ngh_JKC() { // ！{改行}
     raise_zmk_keycode_state_changed_from_encoded(LS(N1), true, timestamp);
