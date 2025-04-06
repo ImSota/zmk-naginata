@@ -7,17 +7,17 @@ void ng_Y(void);
 void ng_ST(void);
 void ng_SY(void);
 void ngh_JKQ(void);
-// void ngh_JKW(void);
+void ngh_JKW(void); //消されてたやつ
 void ngh_JKE(void);
 void ngh_JKR(void);
-// void ngh_JKT(void);
-// void ngh_JKA(void);
-// void ngh_JKS(void);
+void ngh_JKT(void); //消されてたやつ
+void ngh_JKA(void); //消されてたやつ
+void ngh_JKS(void); //消されてたやつ
 void ngh_JKD(void);
-// void ngh_JKF(void);
-// void ngh_JKG(void);
-// void ngh_JKZ(void);
-// void ngh_JKX(void);
+void ngh_JKF(void); //消されてたやつ
+void ngh_JKG(void); //消されてたやつ
+void ngh_JKZ(void); //消されてたやつ
+void ngh_JKX(void); //消されてたやつ
 void ngh_JKC(void);
 void ngh_JKV(void);
 void ngh_JKB(void);
